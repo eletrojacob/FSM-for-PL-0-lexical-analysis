@@ -1,8 +1,0 @@
-VAR numero, resto, par;
-{par:  0= numero par, 1=numero impar}
-BEGIN
-	par := 1;
-	numero := 6;
-	resto := numero mod 2;
-	IF resto = 0 THEN par := 0
-END.
